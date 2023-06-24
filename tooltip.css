@@ -1,0 +1,97 @@
+/* tooltip for top section*/
+
+.search-button,
+.voice-button,
+.upload-button,
+.youtube-apps-button,
+.relative{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  position: relative;
+}
+
+.search-button .tooltip,
+.voice-button .tooltip,
+.upload-button .tooltip,
+.youtube-apps-button .tooltip,
+.relative .tooltip{
+background-color: grey;
+color: white;
+padding: 4px 8px;
+border-radius: 2px;
+font-size: 12px;
+opacity: 0;
+transition: opacity 0.15s;
+
+position: absolute;
+bottom: -30px;
+
+white-space: nowrap;
+pointer-events: none;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-button:hover .tooltip,
+.youtube-apps-button:hover .tooltip,
+.relative:hover .tooltip{
+opacity: 1;
+}
+
+
+
+/*tooltip for body section */
+
+.tooltip-head{
+display: inline-block;
+position: relative;
+}
+
+.tooltip-container{
+display: flex;
+align-items: center;
+
+background-color: white;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+
+position: absolute;
+top: 55px;
+z-index: 400;
+
+border-radius: 6px;
+width: 200px;
+padding: 12px;
+
+opacity: 0;
+transition: opacity 0.25s;
+pointer-events: none;
+}
+
+.tooltip-head:hover .tooltip-container{
+opacity: 1;
+}
+
+.tooltip-image{
+width: 50px;
+height: 50px;
+object-fit: cover;
+border-radius: 25px;
+margin-right: 10px;
+}
+
+.row1{
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-bottom: 4px;
+}
+
+.row2{
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(96, 98, 98);
+
+}
+

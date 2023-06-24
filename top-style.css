@@ -1,0 +1,141 @@
+
+
+.top-container{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(191, 188, 188);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+   
+   }
+  
+    .first-container{
+   
+      margin-right: 30px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+
+    .hamburger-menu{
+      height: 30px;
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+
+    .youtube-logo{
+      height: 20px;
+    }
+
+
+
+    .middle-container{
+      flex: 1;
+      max-width: 500px;
+      margin-right: 35px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .search-box{ 
+    height: 36px;
+    padding-left: 10px;
+
+    box-shadow: inset 1px 1px 3px  rgba(0,0,0,0.05);
+    border: 1px solid rgb(203, 202, 202);
+    flex: 1;
+    
+    width: 0;
+    font-size: 16px;
+    }
+
+    .search-box::placeholder{
+      font-size: 16px;
+    }
+
+    .search-button{
+      height: 39px;
+      width: 66px;
+     margin-left: -1px;
+     border: none;
+     border: 1px solid rgb(203, 202, 202);
+     background-color: rgb(243,243, 243);
+    
+    }
+
+    .search-logo{
+    width: 24px;
+      
+    }
+
+    .voice-button{
+      height: 40px;
+      width: 40px;
+     border-radius: 20px;
+     border: 1px solid rgb(243, 243, 243);
+     margin-left: 10px;
+     background-color: rgb(237, 231, 231);
+    }
+
+    .voice-logo{
+      width: 24px;
+      
+    }
+
+    
+
+    .last-container{
+      width: 180px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 20px;
+      flex-shrink: 0;
+    }
+    .upload{
+      height: 25px;
+    }
+
+    .apps{
+      height: 25px;
+    }
+
+    .notifications{
+      height: 25px;
+    }
+
+    .relative{
+      position: relative;
+    }
+
+    .abosolute{
+      position: absolute;
+      background-color: rgb(218, 42, 42);
+      color: white;
+      padding: 1px 5px;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 15px;
+      top: -3px;
+      right: -3px;
+    }
+
+    .channel-pictures{
+      height: 32px;
+      border-radius: 18px;
+
+    }
+
+    
