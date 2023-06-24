@@ -10,3 +10,5 @@ the above shows the project display made using
 3. tooltips
 4. adding hyper-links
 5. media-queries
+
+NOTE: this web-page is not responsive enough to access in Android/ios. 
